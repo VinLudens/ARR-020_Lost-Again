@@ -12,27 +12,34 @@ left = \absolute {
   <g b d'>4 q <fis b d'> q |
   <e gis b>4. q8 <e g b>2 |
 
-  \repeat unfold 2 {
-    <b, d fis b>4 <d fis b> q q |
-    <b, e gis b> <e gis b> q q |
-    <b, e g b> <e g b> q q |
-    <cis e ais> <e ais> q q |
-  }
+  \voiceTwo
+  <b, d fis>4 <d fis> q q |
+  <b, e gis> <e gis> q q |
+  <b, e g> <e g> q q |
+  <ais, cis> q <cis e> q |
+
+  <b, d fis>4 <d fis> q q |
+  <b, e gis> <e gis> <gis b> <e gis> |
+  <b, e g> <g b> q q |
+  <cis e ais> <cis e> q q |
+  
+  <b,, b,> <b, fis b> <fis b> <b d'> |
+  <e, e> <b, e gis> q q |
+  <g, g> <e g b> q q |
+  <ais,, ais,> <fis ais> q q |
+
+  <b,, b,> <b, fis b> <fis b> <b d'> |
+  <e, e> <e gis b cis'> <e gis b> q |
+  <g, d g> <e g b> q q |
+  <fis, fis> <fis ais cis'> q <fis ais> |
 
 
 
 
-  \arpeggioArrowDown
-  \repeat unfold 2 {
-    <b,, fis, b,>\arpeggio <d fis b> q q |
-    <b,, gis, b,>\arpeggio <e gis b> q q |
-    <b,, g, b,>\arpeggio <e g b> q q |
-    <ais,, fis, ais,>\arpeggio <cis e ais> q q |
-  }
 
 
 
-
+  \voiceOne
   \repeat unfold 2 {
     <g, b, d g> q q q |
     <a, cis e a> q q q |
