@@ -4,14 +4,14 @@
 left = \absolute {
   \global
   \key b \minor
+
   \clef "treble"
-
-  <b' e'' g''>4. q8 <a' d'' fis''>4 q |
-  <ais' cis'' fis''>4. q8 <ais' cis'' e''>2 |
-  <g' b' d''>4 q <fis' b' d''> q |
-  <e' gis' b'>4. q8 <e' g' b'>2 |
-
+  <b e' g'>4. q8 <a d' fis'>4 q |
+  <ais cis' fis'>4. q8 <ais cis' e'>2 |
   \clef "bass" 
+  <g b d'>4 q <fis b d'> q |
+  <e gis b>4. q8 <e g b>2 |
+
   \repeat unfold 2 {
     <b, d fis b>4 <d fis b> q q |
     <b, e gis b> <e gis b> q q |

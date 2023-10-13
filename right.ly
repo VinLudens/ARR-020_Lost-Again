@@ -6,10 +6,10 @@ right = \absolute {
   \key b \minor
   \tempo 4=76
 
-  b''4 d''' b''8 d'''4 b''8 |
-  fis'''4 e''' d''' cis''' |
-  b''8 d''' b'' a'' fis'' a'' fis'' e'' |
-  \acciaccatura f'' fis''4 e'' d'' cis'' |
+  b'4 d'' b'8 d''4 b'8 |
+  fis''4 e'' d'' cis'' |
+  b'8 d'' b' a' fis' a' fis' e' |
+  \acciaccatura f' fis'4 e' d' cis' |
 
 
 
