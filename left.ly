@@ -70,6 +70,55 @@ left = \absolute {
   <g, b, d>1 |
   \time 6/4
   <fis, ais, cis e>1 r2 |
+
   \time 4/4
+  \bar "||"
+
+
+  \appoggiatura { b,8 fis, } b,,16 fis, b, fis \repeat unfold 3 { b fis b, fis } |
+  \repeat unfold 4 { b16 gis b, gis } |
+  \repeat unfold 4 { b16 g b, g } |
+  \repeat unfold 4 { ais16 fis ais, fis } |
+
+  \repeat unfold 4 { b fis b, fis } |
+  \repeat unfold 4 { b16 gis b, gis } |
+  \repeat unfold 4 { b16 g b, g } |
+  \repeat unfold 3 { ais16 fis ais, fis } ais4  |
+
+  \voiceTwo
+  <b,, b,> <b, fis b> <fis b> <b d'> | \arpeggioArrowDown
+  <e, b, e>\arpeggio  <b, e gis> q q | \arpeggioNormal
+  <g, g> <e g b> q q |
+  <ais,, ais,> <fis ais> q q |
+
+  <b,, b,> <b, fis b> <fis b> <b d'> |
+  <e, e> <e gis b cis'> q q |
+  <g, d g> <e g b> q q |
+  <fis, fis> <fis ais cis'> q2 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  r
 
 }
