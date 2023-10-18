@@ -3,6 +3,7 @@
 date = #(strftime "%B %d %Y" (localtime (current-time)))
 \header {
   title = \markup {
+    \hspace #2.6
     \epsfile #X #40 #"images/The_Callisto_Protocol_logo.svg.eps"
   }
   subtitle = "Lost Again"
