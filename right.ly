@@ -57,15 +57,15 @@ right = \absolute {
   >> \oneVoice \change Staff = "right"
 
 
-  <b d' g' b'>2\) r4 <fis' fis''>4\( |
-  <b cis' e' b'>2\) r4 <d' d''>8\( <fis' fis''> |
+  <b d' g' b'>4\) <b d'> q <fis' fis''>4\( |
+  <b cis' e' b'>4\) <b cis' e'> q <d' d''>8\( <fis' fis''> |
   <fis' b' d'' fis''>4 <d' fis' b' d''>4 <fis' b' d'' fis''>8. <d' d''>16 <d' fis' b' d''>8 <cis' cis''>16 q ~ |
-  <cis' e' gis' cis''>16 <b b'>8. ~ 2\) <a a'>4\( |
+  <cis' e' gis' cis''>16 <b b'>8. ~ <b e' gis' b'>4\) <e' gis'> <a a'>4\( |
 
-  <b d' g' b'>2\) r4 <fis' b' d'' fis''>4\( |
-  <e' a' cis'' e''>2\) r4 <d' d''>8\( <fis' fis''> |
+  <b d' g' b'>4\) <b d'> q <fis' b' d'' fis''>4\( |
+  <e' a' cis'' e''>4\) <e' a'> q  <d' d''>8\( <fis' fis''> |
   <fis' b' d'' fis''>4 <d' fis' b' d''>4 <fis' b' d'' fis''>8. <d' d''>16 <d' fis' b' d''>8 <cis' cis''>16 q ~ |
-  <cis' e' gis' cis''>16 <b b'>8. ~ 2\) \tuplet 3/2 { b8\( d' b } |
+  <cis' e' gis' cis''>16 <b b'>8. ~ <b e' gis' b'>4\) <e' gis'> \tuplet 3/2 { b8\( d' b } |
 
   fis'8 e'16 e' ~ 8 b16 d' fis'8 e'16 e' ~ 8 d'16 cis' ~ |
   \time 6/4
