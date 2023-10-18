@@ -41,3 +41,12 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod dynamics 27 7/8 music.Dynamics \!
 
 \editionMod dynamics 29 0/4 music.Dynamics \p
+
+\editionMod dynamics 31 0/4 music.Voice.B _>
+\editionMod dynamics 31 0/4 music.Dynamics \mp
+
+\editionMod dynamics 38 7/8 music.Dynamics \mf
+
+\editionMod dynamics 45 0/4 music.Dynamics \mp
+
+\editionMod dynamics 46 3/4 music.Dynamics \pp
