@@ -39,21 +39,37 @@ left = \absolute {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   \voiceOne
-  \repeat unfold 2 {
-    <g, b, d g> q q q |
-    <a, cis e a> q q q |
-    <b, d fis b> q q q |
-    <b, e gis b> q q q |
-  }
+  <g,, g,> <g, d g> <d g> <g, d g>\arpeggio |
+  <a,, a,> <a, cis e a> <cis e a> <a, cis e a>\arpeggio |
+  <b,, b,> <b, fis b> q\arpeggio q |
+  <e, e> <b, e gis> q q |
 
+  <g,, g,> <g, d g> <d g> <g, d g>\arpeggio |
+  <a,, a,> <a, cis e a> <cis e a> <a, cis e a>\arpeggio |
+  <b,, b,> <b, fis b> q\arpeggio q |
+  <e, e> <b, e gis> q q |
 
-
-
-
-  <g, b, d g>1 |
+  <g, b, d>1 |
   \time 6/4
-  <fis, ais, cis e>1. |
+  <fis, ais, cis e>1 r2 |
   \time 4/4
 
 }
