@@ -52,7 +52,7 @@ right = \absolute {
       r4 <d'' fis'' b''>4. <d'' fis'' cis'''>4 \voiceTwo d'16 <e' fis'> ~ |
       q4 q <cis' e'> q |
       \voiceTwo b4 \voiceOne r4 r8 <e'' g'' b''>4. |
-      \voiceTwo <ais cis'>4 \voiceOne r4 <e'' g'' b''>2 |
+      \voiceTwo <ais cis'>4 \voiceOne r4 <fis'' ais'' cis'''>2 |
     }
   >> \oneVoice \change Staff = "right"
 
