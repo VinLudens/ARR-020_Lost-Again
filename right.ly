@@ -119,6 +119,42 @@ right = \absolute {
     }
   >> \oneVoice
 
-  \appoggiatura { cis''16 c'' } b'\)
+  \appoggiatura { cis''16 c'' } b'2.\) fis''4\( |
+  <a' b' e''>2.\) d''8\( fis'' |
+
+  <a' b' fis''>4 d'' q8. d''16 d''8 cis''16 cis''16 ~  |
+  << { \voiceOne
+      cis''8 b' ~ 4\) r a'\( |
+    }
+    \new Voice { \voiceTwo \tiny
+      <e' gis'>4 q q r4 |
+    }
+  >> \oneVoice
+
+
+  <d' fis' b'>2.\) fis''4\( |
+  <g' cis'' e''>2.\) d''8\( fis'' |
+
+  <b' fis''>4 d'' q8. d''16 d''8 cis''16 cis''16 ~  |
+  << { \voiceOne
+      cis''8 b' ~ 4\) r \tuplet 3/2 { b8\( d' b } |
+    }
+    \new Voice { \voiceTwo \tiny
+      <e' gis'>4 q q r4 |
+    }
+  >> \oneVoice
+
+
+  fis'8 e'16 e' ~ 8 b16 d' fis'8 e'16 e' ~ 8 d'16 cis' ~ |
+  4..\) b16\( fis'8 e'16 d' ~ 8 cis'16 b ~  |
+
+  \bar "||"
+
+  <b d' g' b'>4\) <d' d''> <b d' fis' b'>8 <d' d''>4 <b b'>8 |
+  \change Staff = "left" <e,, e,>4. \stemDown b16\( d' ~ 8 cis'16 cis' ~ 8 b16 \change Staff = "right" b ~ | \stemNeutral
+  <b d' g' b'>4\) <d' d''> <b d' fis' b'>8 <d' d''>4 <b b'>8 |
+  \change Staff = "left" <e,, e,>4. \stemDown b16\( d' ~ 8 cis'16 cis' ~ 8 b16 \change Staff = "right" b ~ | \stemNeutral
+
+  <b d' g' b'>4\) <d' d''> <b d' fis' b'>8 <d' d''>4 <b b'>8 |
 
 }

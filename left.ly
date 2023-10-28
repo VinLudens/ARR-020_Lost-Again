@@ -119,6 +119,42 @@ left = \absolute {
 
 
 
+  r4. g,8 <g b>2 |
+  a,4 <a cis'> d' fis' |
+  << { \voiceOne
+    b8 d' b a fis a fis e |
+
+    gis4 <gis b> q q |
+    }
+    \new Voice { \voiceTwo
+      fis1 |
+      b,1 |
+    }
+  >> \oneVoice
+
+  g,8 d g a b d' fis'4 |
+  a,8 e a b cis' fis'4. |
+  << { \voiceOne
+    b8 d' b a fis a fis e |
+
+    gis4 <gis b> q r |
+    }
+    \new Voice { \voiceTwo
+      fis1 |
+      b,1 |
+    }
+  >> \oneVoice
+
+  <g, d>1 |
+  <fis, ais, cis e>1 |
+
+  \bar "||"
+
+  <g,, g,>4. q8 <fis,, fis,>4 q4 |
+  \change Staff = "right" <fis' b' d'' fis''>4 <e' e''> <b' d''> <a' cis''> | \change Staff = "left"
+  <g,, g,>4. q8 <fis,, fis,>4 q4 |
+  \change Staff = "right" <fis' b' d'' fis''>4 <e' e''> <b' d''> <a' cis''> | \change Staff = "left"
+
   r
 
 }
