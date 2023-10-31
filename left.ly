@@ -8,7 +8,7 @@ left = \absolute {
   \clef "treble"
   <b e' g'>4. q8 <a d' fis'>4 q |
   <ais cis' fis'>4. q8 <ais cis' e'>2 |
-  \clef "bass" 
+  \clef "bass"
   <g b d'>4 q <fis b d'> q |
   <e gis b>4. q8 <e g b>2 |
 
@@ -22,7 +22,7 @@ left = \absolute {
   <b, e gis> <e gis> <gis b> <e gis> |
   <b, e g> <g b> q q |
   <cis e ais> <cis e> q q |
-  
+
   <b,, b,> <b, fis b> <fis b> <b d'> |
   <e, e> <b, e gis> q q |
   <g, g> <e g b> q q |
@@ -157,7 +157,7 @@ left = \absolute {
   <g,, g,>4. q8 <fis,, fis,>4 q4 |
   <e,, e,>4. <a, a>8 <b, e gis b>2 |
 
-  \change Staff = "right" 
+  \change Staff = "right"
   b''8 d''' b'' \change Staff = "left" \clef "treble" a'' fis'' a'' fis'' e'' |
   fis''4 e'' d'' cis'' |
 

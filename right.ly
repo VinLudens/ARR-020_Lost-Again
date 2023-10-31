@@ -157,7 +157,7 @@ right = \absolute {
   <b d' fis' b'>4\) <d' d''> <b cis' e' b'>8 <d' d''>4 <fis' fis''>8 |
   <gis' b' e'' gis''>4 <a' a''> <b' d'' fis'' b''> <cis'' cis'''> |
 
-  \change Staff = "left" \clef "treble" 
+  \change Staff = "left" \clef "treble"
   g''4 g'' \change Staff = "right" \ottava 1 d''' d''' |
   <e''' gis'''>4. q8 <d''' g'''>4 \ottava 0 <ais' ais''>-^ |
 
