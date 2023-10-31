@@ -154,7 +154,45 @@ left = \absolute {
   \change Staff = "right" <fis' b' d'' fis''>4 <e' e''> <b' d''> <a' cis''> | \change Staff = "left"
   <g,, g,>4. q8 <fis,, fis,>4 q4 |
   \change Staff = "right" <fis' b' d'' fis''>4 <e' e''> <b' d''> <a' cis''> | \change Staff = "left"
+  <g,, g,>4. q8 <fis,, fis,>4 q4 |
+  <e,, e,>4. <a, a>8 <b, e gis b>2 |
 
-  r
+  \change Staff = "right" 
+  b''8 d''' b'' \change Staff = "left" \clef "treble" a'' fis'' a'' fis'' e'' |
+  fis''4 e'' d'' cis'' |
 
+  \clef "bass"
+  \repeat unfold 2 { b,,16 fis, b,8 fis,16 b, d fis } |
+  \repeat unfold 2 { d,16 a, d8 fis,16 a, d fis } |
+  \repeat unfold 2 { g,,16 d, g,8 g,16 b, d g } |
+  fis,,16 cis, fis,8 fis,16 ais, cis fis ais fis ais b cis'4 |
+
+
+  b,,16 fis, b, d fis b, d fis b d fis b d' b fis d |
+  d, fis, a, d fis a, d fis a d fis a d' a fis d |
+  g, b, d g b d g b d' g b d' g' b g d |
+  fis, cis fis ais cis' fis ais cis' e' ais cis' e' \change Staff = "right" \voiceTwo fis' e' r8 | \change Staff = "left" \voiceOne
+
+  b,,16 fis, b, d fis b, d fis b d fis b d' b fis d |
+  d, fis, a, d fis a, d fis a d fis a d' a fis d |
+  g, b, d g b d g b d' g b d' g' b g d |
+  fis, cis fis ais cis' fis ais cis' e'4 <fis,, fis,> |
+
+  \appoggiatura { g,8 d, } <g,, g,>4 \change Staff = "right" \voiceTwo <fis'' g''> <d'' fis''> \change Staff = "left" \voiceOne <g,, g,> |
+  \appoggiatura { a,8 e, } <a,, a,>4 \change Staff = "right" \voiceTwo <cis''' e'''> <a'' cis'''> \change Staff = "left" \voiceOne <a,, a,> |
+  \appoggiatura { b,8 fis, } <b,, b,>8 <d d'> <b, b> <a, a> <fis, fis> <a, a> <fis, fis> <e, e> |
+  <e,, e,>4 <e, gis, b, e> <e gis b> <e,, e,> |
+
+  \omit TupletNumber
+  \appoggiatura { g,8 d, } <g,, g,>4 \change Staff = "right" \voiceTwo \tuplet 6/4 4 { s4 g''16 e'' s8. cis''16 b' g' } \change Staff = "left" \voiceOne r4 |
+  \appoggiatura { a,8 e, } <a,, a,>4 \change Staff = "right" \voiceTwo \tuplet 6/4 4 { s4 cis'''16 a'' s8. a'16 fis' cis' } \change Staff = "left" \voiceOne r4 |
+  \undo\omit TupletNumber
+  \appoggiatura { b,8 fis, } <b,, b,>4 \change Staff = "right" \ottava 1 \tuplet 6/4 4 { b'''16 fis''' d''' fis''' d''' b'' d''' b'' fis'' b'' fis'' b' } \ottava 0 r4 | \change Staff = "left"
+  \clef "bass" <e,, e,>4 <e, gis, b, e> <e gis b> r |
+
+  \clef "treble" <g b d' e'>2.\arpeggio  g16 b d' g' |
+  <fis ais cis' fis'>1 |
+  r1 |
+
+  \bar "|."
 }
