@@ -9,6 +9,7 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \addEdition tweaks
 \addEdition fingering
 \addEdition dynamics
+\addEdition compound-slurs
 
 \editionMod dynamics 1 0/8 music.Dynamics \p
 
@@ -25,12 +26,58 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod tweaks 9 3/16 music.Voice.A \shape #'((0 . -1.5) (0 . 0.7) (0 . 0) (0 . -0.5)) PhrasingSlur
 
 \editionMod tweaks 10 5/16 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 6.5)
-\editionMod tweaks 10 7/8 music.Voice.A \once\override PhrasingSlur.color = #(rgb-color 1 0 0)
+\editionMod compound-slurs 10 7/8 music.Voice.A \compoundSlur \with {
+  annotate = ##f
+  start-angle = 35
+  start-point = #'(0 . -0.5)
+  start-ratio = 0.35
+  end-angle = -40
+  end-point = #'(1.7 . 0)
+  end-ratio = 0.3
+  inflection = #'(
+    (X-ratio . 0.60)
+    (Y-offset . -5.5)
+    (angle . 9)
+    (ratio-left . 0.5)
+    (ratio-right . 0.3)
+  )
+}
+
+\editionMod tweaks 11 0/4 music.Voice.C \once\override Rest.Y-offset = #4
+\editionMod compound-slurs 11 15/16 music.Voice.A )
 
 \editionMod dynamics 12 7/8 music.Dynamics \mf
-\editionMod tweaks 12 7/8 music.Voice.A \once\override PhrasingSlur.color = #(rgb-color 1 0 0)
+\editionMod tweaks 12 0/4 music.Voice.C \once\override Rest.Y-offset = #4
+\editionMod compound-slurs 12 0/4 music.Voice.A \shape #'((-4.3 . -0.5) (-1.5 . 1) (-4 . 2) (0 . 0)) PhrasingSlur
+\editionMod compound-slurs 12 0/4 music.Voice.A \(
+\editionMod compound-slurs 12 2/4 music.Voice.A \)
+\editionMod compound-slurs 12 7/8 music.Voice.A \compoundSlur \with {
+  annotate = ##f
+  show-grid = ##f
+  start-point = #'(0 . -0.5)
+  start-angle = 45
+  start-ratio = 0.55
+  end-point = #'(0 . -3.5)
+  end-angle = -25
+  end-ratio = 0.2
+  inflection = #'(
+    (X-ratio . 0.35)
+    (Y-offset . -1)
+    (ratio-left . 0.3)
+    (ratio-right . 0.4)
+    (angle . 15)
+  )
+  inflection = #'(
+    (X-ratio . 0.68)
+    (Y-offset . 3)
+    (ratio-left . 0.5)
+    (ratio-right . 0.4)
+    (angle . -25)
+  )
+}
 
 \editionMod tweaks 14 7/8 music.Voice.A \shape #'((0 . 0) (0 . 0) (-1 . 1) (-0.2 . 0.0)) PhrasingSlur
+\editionMod compound-slurs 14 2/4 music.Voice.A )
 
 \editionMod tweaks 15 7/8 music.Voice.A \shape #'(() ((0 . 2) (0 . 0) (-1 . -1) (0 . -3))) PhrasingSlur
 

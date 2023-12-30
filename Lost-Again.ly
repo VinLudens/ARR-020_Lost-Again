@@ -27,6 +27,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
 }
 
 \include "oll-core/package.ily"
+\loadModule oll-misc.custom-elements.compound-slurs
 \loadPackage edition-engraver
 \include "editions.ly"
 
