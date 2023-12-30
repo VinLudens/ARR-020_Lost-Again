@@ -28,6 +28,7 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod tweaks 10 5/16 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 6.5)
 \editionMod compound-slurs 10 7/8 music.Voice.A \compoundSlur \with {
   annotate = ##f
+  show-grid = ##f
   start-angle = 35
   start-point = #'(0 . -0.5)
   start-ratio = 0.35
@@ -35,11 +36,12 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
   end-point = #'(1.7 . 0)
   end-ratio = 0.3
   inflection = #'(
-    (X-ratio . 0.60)
-    (Y-offset . -5.5)
-    (angle . 9)
-    (ratio-left . 0.5)
+    (X-ratio . 0.68)
+    (Y-offset . -5.0)
+    (angle . 30)
+    (ratio-left . 0.36)
     (ratio-right . 0.3)
+    (label . "*")
   )
 }
 
