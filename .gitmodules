@@ -1,9 +1,0 @@
-[submodule "openlilylib/oll-core"]
-	path = openlilylib/oll-core
-	url = https://github.com/openlilylib/oll-core.git
-[submodule "openlilylib/edition-engraver"]
-	path = openlilylib/edition-engraver
-	url = https://github.com/openlilylib/edition-engraver.git
-[submodule "openlilylib/oll-misc"]
-	path = openlilylib/oll-misc
-	url = https://github.com/openlilylib/oll-misc.git
