@@ -88,16 +88,16 @@ right = \absolute {
       r8. b'16\( \tuplet 3/2 { d''8 cis'' d'' } cis''8 b'8\) r4 |
       r8. b'16\( \tuplet 3/2 { fis''8 fis'' d'' } e''4\) r8 d''16\( fis'' ~ |
       8 e'' e'' d''16 fis'' ~ 8 e''16 e'' ~ 8 d''16 cis'' ~ |
-      8 d''16 cis'' ~ 8 b'16 ais' ~ 4\) r8 d'16\( fis' ~ |
+      8 d''16 cis'' ~ 8 b'16 ais' ~ 4\) r8 d'16 fis' ~ |
 
 
       fis'4. \change Staff = "left" d'16 fis' ~ 4. \change Staff = "right" d'8 |
-      cis'4. \change Staff = "left" b16 16 ~ 4\) r8 \change Staff = "right" d'16\( fis'  |
+      cis'4. \change Staff = "left" b16 16 ~ 4 r8 \change Staff = "right" d'16\( fis'  |
       e'8 \change Staff = "left" e' e'4\) r4. \change Staff = "right" d'16\( fis' |
-      e'8 \change Staff = "left" e' e'4\) r4. \change Staff = "right" d'16\( fis' ~ |
+      e'8 \change Staff = "left" e' e'4\) r4. \change Staff = "right" d'16 fis' ~ |
 
       fis'4. \change Staff = "left" d'16 fis' ~ 4. \change Staff = "right" \voiceOne b'16 cis'' ~ |
-      4. b'16 fis' ~ 4.\) d'16\( fis' |
+      4. b'16 fis' ~ 4. d'16\( fis' |
       e'8 e' e'4\) \voiceTwo r4. \voiceOne d'16\( fis' |
       e'8 e' e'4\) \voiceTwo r4 \voiceOne d''4\( |
     }
@@ -197,10 +197,10 @@ right = \absolute {
 
 
   <b cis' e' b'>4\) \ottava 1 \voiceOne \tuplet 6/4 4 { b'''16 e''' cis''' b'' g'' e'' \ottava 0 b'' g'' e'' cis'' b' g' } \oneVoice <fis' fis''>4\( |
-  <e' a' cis'' e''>4\) \ottava 1 \voiceOne \tuplet 6/4 4 { e''''16 cis'''' a''' e''' cis''' a'' \ottava 0 cis''' fis'' cis'' a' fis' cis' } \oneVoice <d' d''>8\( <fis' fis''> |
+  <e' a' cis'' e''>4\) \ottava 1 \voiceOne \tuplet 6/4 4 { e''''16 cis'''' a''' e''' cis''' a'' \ottava 0 cis''' fis'' cis'' a' fis' cis' } \oneVoice <d' d''>8 <fis' fis''> |
 
   <fis' b' d'' fis''>4 \change Staff = "left" \clef "treble" <d' d''>4 <fis' fis''>8. <d' d''>16 q8 \change Staff = "right" <cis' cis''>16 q ~ |
-  <cis' e' gis' cis''>16 <b b'>8. ~ <b e' gis' b'>4\) <e' gis'> \tuplet 3/2 { b'8\( d'' b' } |
+  <cis' e' gis' cis''>16 <b b'>8. ~ <b e' gis' b'>4 <e' gis'> \tuplet 3/2 { b'8\( d'' b' } |
 
   fis''8 e''16 e'' ~ 8 b'16 d'' fis''8 e''16 e'' ~ 8 d''16 cis'' ~ |
   4..\) b'16\( fis''8 e''16 d'' ~ 8 cis''16 b' ~ |

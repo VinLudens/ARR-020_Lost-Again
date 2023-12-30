@@ -133,7 +133,6 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod tweaks 36 3/16 music.Voice.A \shape #'((0 . -1.3) (0 . 0.7) (0 . 0) (0 . -0.8)) PhrasingSlur
 
 \editionMod dynamics 38 7/8 music.Dynamics \mf
-\editionMod tweaks 38 7/8 music.Voice.A \once\override PhrasingSlur.color = #(rgb-color 1 0 0)
 
 \editionMod tweaks 40 7/8 music.Voice.A \shape #'(() ((0 . 2) (2 . 0.5) (0 . -3) (-0.2 . -2.6))) PhrasingSlur
 % \editionMod tweaks 40 7/8 music.Voice.A \shape #'(() ((0 . 2) (0 . 0) (-1 . -1) (0 . -3))) PhrasingSlur
@@ -142,7 +141,6 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod tweaks 41 7/8 music.Voice.A \shape #'(() ((0 . 2) (0 . 0) (-1 . -1) (0 . -2.4))) PhrasingSlur
 
 \editionMod tweaks 42 1/4 music.Voice.D \once\override Rest.Y-offset = #3
-\editionMod tweaks 42 7/8 music.Voice.A \once\override PhrasingSlur.color = #(rgb-color 1 0 0)
 
 \editionMod dynamics 45 0/4 music.Dynamics \mp
 
@@ -159,8 +157,6 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod tweaks 68 7/8 music.Voice.A \shape #'(((0 . 0.3) (0 . 0.5) (0 . 0.5) (0 . 0.3)) ()) PhrasingSlur
 
 \editionMod tweaks 78 3/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 3)
-
-\editionMod tweaks 82 3/4 music.Voice.A \once\override PhrasingSlur.color = #(rgb-color 1 0 0)
 
 \editionMod tweaks 84 3/4 music.Voice.A \once\override PhrasingSlur.positions = #'(1.5 . 1.8)
 \editionMod tweaks 84 3/4 music.Voice.A \shape #'((0 . 0) (0 . 0.5) (0 . 0.5) (0 . 0)) PhrasingSlur
