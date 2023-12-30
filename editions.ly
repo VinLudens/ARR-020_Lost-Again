@@ -142,6 +142,8 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 
 \editionMod tweaks 42 1/4 music.Voice.D \once\override Rest.Y-offset = #3
 
+\editionMod tweaks 43 15/16 music.Voice.A \once\override Tie.minimum-length = #2.8
+
 \editionMod dynamics 45 0/4 music.Dynamics \mp
 
 \editionMod dynamics 46 3/4 music.Dynamics \pp
