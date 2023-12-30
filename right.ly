@@ -46,7 +46,7 @@ right = \absolute {
 
       r4 <d'' fis'' b''>4. <d'' fis'' cis'''>4. |
       \voiceTwo <gis b>4 \voiceOne <e'' gis'' d'''>4. <gis'' b'' e'''>4. |
-      \voiceTwo b4 \voiceTwo <e'' g'' b''>4. <e'' g'' d'''> |
+      \voiceTwo b4 \voiceOne <e'' g'' b''>4. <e'' g'' d'''> |
       \voiceTwo <ais cis'>4 \voiceOne <fis'' ais'' e'''>4. <fis'' ais'' cis'''> |
 
       r4 <d'' fis'' b''>4. <d'' fis'' cis'''>4 \voiceTwo d'16 <e' fis'> ~ |
