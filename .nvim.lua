@@ -6,3 +6,4 @@ require("nvls").setup({
         },
     },
 })
+vim.g.disable_autoformat = true
