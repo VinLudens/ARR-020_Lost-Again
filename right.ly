@@ -28,10 +28,10 @@ right = \absolute {
       fis'4. \change Staff = "left" d'16 fis' ~ 4. \change Staff = "right" d'8 |
       cis'4. \change Staff = "left" b16 16 ~ 4 r8 \change Staff = "right" d'16\( fis'  |
       e'8 \change Staff = "left" e' e'4\) r4. \change Staff = "right" d'16\( fis' |
-      e'8 \change Staff = "left" e' e'4\) r4. \change Staff = "right" d'16\( fis' ~ |
+      e'8 \change Staff = "left" e' e'4\) r4. \change Staff = "right" d'16 fis' ~ |
 
       fis'4. \change Staff = "left" d'16 fis' ~ 4. \change Staff = "right" \voiceOne b'16 cis'' ~ |
-      4. b'16 fis' ~ 4.\) d'16\( fis' |
+      4. b'16 fis' ~ 4. d'16\( fis' |
       e'8 e' e'4\) \voiceTwo r4. \voiceOne d'16\( fis' |
       e'8 e' e'4\) \voiceTwo r4 \voiceOne <d' d''>4\( |
     }

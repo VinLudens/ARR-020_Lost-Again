@@ -81,11 +81,28 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 
 \editionMod tweaks 15 7/8 music.Voice.A \shape #'(() ((0 . 2) (0 . 0) (-1 . -1) (0 . -3))) PhrasingSlur
 
-\editionMod tweaks 16 7/8 music.Voice.A \once\override PhrasingSlur.color = #(rgb-color 1 0 0)
+\editionMod compound-slurs 16 7/8 music.Voice.A \compoundSlur \with {
+  show-grid = ##f
+  annotate = ##f
+  start-angle = 39
+  start-ratio = 0.55
+  end-point = #'(0 . -1.2)
+  end-angle = -35
+  end-ratio = 0.72
+  inflection = #'(
+    (X-ratio . 0.44)
+    (Y-offset . -3.0)
+    (angle . 45)
+    (ratio-left . 0.60)
+    (ratio-right . 0.3)
+    (label . "*")
+  )
+}
 
 \editionMod dynamics 17 15/16 music.Dynamics \sfz
 
 \editionMod dynamics 18 0/4 music.Voice.B ->
+\editionMod compound-slurs 18 2/4 music.Voice.A )
 
 \editionMod dynamics 19 0/4 music.Dynamics \mp
 
